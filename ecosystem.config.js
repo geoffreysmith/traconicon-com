@@ -1,7 +1,7 @@
-module.exports = {
-    apps: [
-      {
-        script: "npx serve -s"
-      }
-    ]
-  };
+export const apps = [
+  {
+    script: 'npx serve -s',
+  },
+];
+
+export default apps;
