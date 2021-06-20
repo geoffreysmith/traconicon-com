@@ -1,6 +1,5 @@
 import H6 from '@material-tailwind/react/Heading6';
 import Paragraph from '@material-tailwind/react/Paragraph';
-import {Link} from "react-router-dom";
 
 export default function LandingTeamCard({name, position, email }) {
     return (
