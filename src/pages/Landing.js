@@ -1,10 +1,10 @@
-import DefaultNavbar from 'components/DefaultNavbar';
-import Header from 'components/landing/Header';
-import WorkingSection from 'components/landing/WorkingSection';
-import TeamSection from 'components/landing/TeamSection';
+import DefaultNavbar from 'components/DefaultNavbar'
+import Header from 'components/landing/Header'
+import WorkingSection from 'components/landing/WorkingSection'
+import TeamSection from 'components/landing/TeamSection'
 
-export default function Landing() {
-    return (
+export default function Landing () {
+  return (
         <>
             <div className="absolute w-full z-20">
                 <DefaultNavbar />
@@ -15,5 +15,5 @@ export default function Landing() {
                 <TeamSection />
             </main>
         </>
-    );
+  )
 }
